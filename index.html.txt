@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Неон сайт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Фон -->
+  <div class="bg scanlines"></div>
+
+  <!-- Шапка -->
+  <header>
+    <div class="container nav">
+      <a href="#" class="brand">
+        <h1>Мой Сайт</h1>
+        <span class="badge">NEON</span>
+      </a>
+      <nav>
+        <a href="#" class="btn">Главная</a>
+        <a href="#" class="btn">О нас</a>
+        <a href="#" class="btn">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Герой -->
+  <section class="hero">
+    <div class="logo-wrap">
+      <h2>Добро пожаловать</h2>
+    </div>
+    <p>Это твой сайт с гифкой на фоне и неоновыми эффектами 🚀</p>
+    <div class="cta">
+      <a href="#" class="primary">Начать</a>
+      <a href="#" class="secondary">Подробнее</a>
+    </div>
+  </section>
+
+  <!-- Карточки -->
+  <section class="container cards">
+    <div class="card">
+      <div class="stat">🔥</div>
+      <p class="muted">Эффект 1</p>
+    </div>
+    <div class="card">
+      <div class="stat">⚡</div>
+      <p class="muted">Эффект 2</p>
+    </div>
+    <div class="card">
+      <div class="stat">🌌</div>
+      <p class="muted">Эффект 3</p>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer>
+    <p>© 2025 Мой сайт. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
